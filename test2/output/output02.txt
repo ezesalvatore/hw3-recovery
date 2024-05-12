@@ -1,0 +1,3 @@
+Item:Multiple solutions
+Capacity:5
+Value:70

@@ -1,0 +1,3 @@
+Item:1 2
+Capacity:3
+Value:7
