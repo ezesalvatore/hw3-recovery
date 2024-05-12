@@ -117,6 +117,7 @@ public class Main {
 
         int counter = 0;
 
+
         BestSack solution = null;
 
         for(int i = 0; i < potentialSack.size(); i++){
@@ -140,11 +141,14 @@ public class Main {
         } else if (multipleChoices) {
             System.out.println("Multiple solutions");
         } else {
+            int indexSkipper = 0;
             StringBuilder sb = new StringBuilder();
             for(int i = 0; i < solution.getItemSize(); i++){
-                for(int j = 0; j < index.size(); j++){
+                for(int j = indexSkipper; j < index.size(); j++){
                     if( solution.getItems().get(i) == index.get(j)){
                         sb.append(j + 1).append(" ");
+                        indexSkipper++;
+                        break;
                     }
                 }
             }
