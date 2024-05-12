@@ -134,7 +134,7 @@ public class Main {
 
         // Print out everything
 
-        System.out.print("Items:");
+        System.out.print("Item:");
         if (solution.getItemSize() == 0) {
             System.out.println("No valid solution");
         } else if (multipleChoices) {
