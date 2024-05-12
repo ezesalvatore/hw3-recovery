@@ -47,4 +47,4 @@ if [[ -f "./Main.java" ]]; then
 else
   echo "Coudn't find Main.java"
   exit 1
-ficd
+fi
